@@ -4,7 +4,7 @@ class Teacher
 {
 public:
 	Teacher();
-	Teacher(string name,int age);
+	Teacher(string name,int age,string gender="ÄÐ");
 
 	void setName(string _name);
 	string getName();

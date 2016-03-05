@@ -9,9 +9,10 @@ Teacher::Teacher() {
 	cout << "Teacher()" << endl;
 }
 
-Teacher::Teacher(string name, int age) {
+Teacher::Teacher(string name, int age,string gender) {
 	m_strName = name;
 	m_iAge = age;
+	m_strGender = gender;
 	cout << "Teacher(string name, int age) " << endl;
 }
 

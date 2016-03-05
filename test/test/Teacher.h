@@ -3,6 +3,9 @@ using namespace std;
 class Teacher
 {
 public:
+	Teacher();
+	Teacher(string name,int age);
+
 	void setName(string _name);
 	string getName();
 

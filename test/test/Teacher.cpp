@@ -3,6 +3,19 @@
 #include <string>
 using namespace std;
 
+Teacher::Teacher() {
+	m_strName = "Jim";
+	m_iAge = 5;
+	cout << "Teacher()" << endl;
+}
+
+Teacher::Teacher(string name, int age) {
+	m_strName = name;
+	m_iAge = age;
+	cout << "Teacher(string name, int age) " << endl;
+}
+
+
 // 类外定义
 void Teacher::setName(string _name) {
 	m_strName = _name;

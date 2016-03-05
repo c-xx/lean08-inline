@@ -3,10 +3,8 @@
 #include <string>
 using namespace std;
 
-Teacher::Teacher() {
-	m_strName = "Jim";
-	m_iAge = 5;
-	cout << "Teacher()" << endl;
+Teacher::Teacher():m_strName("Jim"),m_iAge(10),m_strGender("ÄÐ") {
+	cout << "Teacher():m_strName(\"Jim\"),m_iAge(10)" << endl;
 }
 
 Teacher::Teacher(string name, int age,string gender) {

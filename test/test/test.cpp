@@ -16,6 +16,7 @@ int main(void) {
 	t.teach();
 
 	Teacher t1("jim", 52);
+	t1.setGender("Ů");
 	cout << t1.getName() << " " << t1.getAge() << " " << t1.getGender() << endl;
 	t1.teach();
 
